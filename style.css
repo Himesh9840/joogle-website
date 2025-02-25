@@ -1,0 +1,56 @@
+*
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+
+	height: 100vh;
+}
+
+div
+{
+   margin-bottom: 2rem;
+}
+
+.searchBar
+{
+	border: 2px solid black;
+	padding: 0.4rem 0.5rem;
+	border-radius: 2rem;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+input
+{
+	padding: 5px 10px;
+	border: none;
+	outline: none;
+	width: 25rem;
+	font-size: 1rem;
+}
+
+i
+{
+	color: rgb(117, 117, 117);
+	font-size: 0.8rem;
+	
+}
+img
+{
+	margin: 0 0.3rem;
+}
+
+i,img:hover{
+	cursor: pointer;
+}
